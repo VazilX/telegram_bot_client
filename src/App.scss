@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #9bb6ce;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.chat {
+  display: grid;
+  gap: 2px;
+  max-width: 600px;
+  margin: 0 auto;
+
+  &--with-big-img {
+    overflow: hidden;
+  }
+}
